@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
     inputs:
       PACKAGE:
-        description: 'luci-app-diskman\nluci-app-dockerman\ndockerd\ndocker\ndocker-compose\nluci-lib-docker\ncgroupfs-mount\ntini\nkmod-veth\nkmod-ikconfig\nkmod-nf-ipvs\nkmod-nf-nat\nkmod-nf-nat6\nkmod-nft-nat\nkmod-nft-offload\nkmod-nft-compat\nkmod-nft-fullcone'
+        description: '添加插件，多个插件用\n分隔。'
         required: false
         type: string
       TEST:
